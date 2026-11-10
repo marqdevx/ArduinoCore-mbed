@@ -22,5 +22,10 @@
         "RPMSG_BUFFER_SIZE=512"
       ]
     }
+  },
+  "OPTA": {
+    "lwp.socket-max": 8,
+    "lwp.tcp-socket-max": 8,
+    "lwp.udp-socket-max": 8
   }
 }
